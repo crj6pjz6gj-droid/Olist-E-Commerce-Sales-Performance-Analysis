@@ -53,6 +53,8 @@ Project Methodology
 
 I imported the Olist datasets into Power BI and used Power Query to prepare the data for analysis.
 
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e4d1aaef-e0ae-400a-b320-ca5cdfe772c4" />
+
 The preparation process included:
 
   - Inspecting the structure and quality of the source tables.
@@ -185,7 +187,10 @@ Challenge: Establishing an accurate relational schema across multiple Olist data
 
 <img width="1440" height="900" alt="Screenshot 2026-10-22 at 13 35 11" src="https://github.com/user-attachments/assets/9f664314-7fc9-40c1-b3ef-7103bfc96dd3" />
 
-  I examined the individual tables to identify appropriate primary keys, and configured relationships between the orders, customers,   order items, payments, products and sellers datasets. I investigated potential duplication arising from one-to-many relationships    and validated the resulting aggregations.
+  I examined the individual tables to identify appropriate primary keys, and configured relationships between the orders, customers, order items, payments, products and sellers datasets. I investigated potential duplication arising from one-to-many relationships and validated the resulting aggregations by creating a calculated column and filtering to assess the unmatched records.
+
+  <img width="1440" height="900" alt="Screenshot 2026-11-05 at 13 00 07" src="https://github.com/user-attachments/assets/a1801f14-ab8d-47fe-afcf-337c7ad7eea7" />
+
 
 2. Data Quality and Missing Values
 
@@ -193,7 +198,7 @@ Challenge: Identifying and managing blank values, missing dates and incomplete r
 
 <img width="993" height="655" alt="Screenshot 2026-11-03 at 11 10 12" src="https://github.com/user-attachments/assets/dafb89df-607c-441a-9999-687688cafd2b" />
 
-  I investigated missing values within Power Query and the data model, distinguishing between records that could be excluded due to    missing at random and fields where missing information required further investigation as it appeared systematic.
+  I investigated missing values within Power Query and the data model, distinguishing between records that could be excluded due to missing at random and fields where missing information required further investigation as it appeared systematic.
 
 3. Complex DAX Measures and Calculated Columns
 
@@ -205,17 +210,22 @@ Challenge: Developing DAX calculations for business performance metrics, includi
 
 Challenge: Initial cohort retention calculations produced unexpectedly low percentages, while conditional formatting resulted in limited visual variation due to the distribution of values.
 
-  I investigated the relationship between cohort size, retained customer counts and the retention percentage calculation. I also       refined the conditional formatting configuration by adjusting the minimum, midpoint and maximum colour values to improve the         visual distinction between retention levels.
+<img width="1170" height="773" alt="Screenshot 2026-11-12 at 10 59 08" src="https://github.com/user-attachments/assets/1728f4e5-0b8f-432a-81b2-9425020d2cd6" />
+
+  I investigated the relationship between cohort size, retained customer counts and the retention percentage calculation. I also refined the conditional formatting configuration by adjusting the minimum, midpoint and maximum colour values to improve the visual distinction between retention levels.
 
 5. Visualisation Configuration and Geographic Analysis
 
 Challenge: Configuring Power BI's filled map visual to accurately represent the geographic distribution of customer orders across Brazil. Initial configurations resulted in a map displaying a global view, making regional patterns difficult to interpret.
 
-  I investigated geographic field categorisation, map configuration settings and the use of Brazilian state-level geographic data. I   also explored the available zoom and auto-zoom controls to improve the map's geographic focus.
+  I investigated geographic field categorisation, map configuration settings and the use of Brazilian state-level geographic data. I also explored the available zoom and auto-zoom controls to improve the map's geographic focus.
 
 6. Date Relationships and Time-Series Analysis
 
 Challenge: Revenue trend visualisations initially displayed blank date categories, incorrect chronological ordering and incomplete quarterly trends.
+
+<img width="787" height="163" alt="image" src="https://github.com/user-attachments/assets/d32c9e61-827b-47fc-bc82-d8964ab99f9b" />
+
 
   I created a dedicated calendar/date table, developed date-based calculated columns and investigated the relationship between order   purchase timestamps and date-only fields. I also refined the quarter sorting logic to ensure chronological ordering.
 
