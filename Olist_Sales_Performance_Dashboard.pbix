@@ -184,17 +184,14 @@ Potential extensions to the project include:
   - Developing additional measures for customer lifetime value.
   - Developing customer segmentation using purchasing behaviour.
 
+
 Challenges Encountered & Problem-Solving
 
-Here is how I would professionally write up your experiences.
-:::writing{variant="document" id="82741"}
-## Challenges Encountered & Problem-Solving
+Throughout the development of this project, I encountered several technical and analytical challenges. Resolving these issues required iterative testing, investigation of the underlying data model, and refinement of DAX calculations.
 
-Throughout the development of this project, I encountered several technical and analytical challenges. Resolving these issues required iterative testing, investigation of the underlying data model, and refinement of DAX calculations and visual configurations.
+1. Data Modelling and Relationship Configuration
 
-### 1. Data Modelling and Relationship Configuration
-
-**Challenge:** Establishing an accurate relational schema across multiple Olist datasets. Incorrect relationships and mismatched join columns risked introducing duplicated records, inaccurate aggregations and inconsistencies in revenue calculations.
+*Challenge:* Establishing an accurate relational schema across multiple Olist datasets. Incorrect relationships and mismatched join columns risked introducing duplicated records, inaccurate aggregations and inconsistencies in revenue calculations.
 
 **Approach:** I examined the granularity of individual tables, identified appropriate primary and foreign keys, and configured relationships between the orders, customers, order items, payments, products and sellers datasets. I investigated potential duplication arising from one-to-many relationships and validated the resulting aggregations.
 
