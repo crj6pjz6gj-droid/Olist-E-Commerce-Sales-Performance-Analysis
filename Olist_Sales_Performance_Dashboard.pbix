@@ -191,7 +191,7 @@ Throughout the development of this project, I encountered several technical and 
 
 1. Data Modelling and Relationship Configuration
 
-*Challenge:* Establishing an accurate relational schema across multiple Olist datasets. Incorrect relationships and mismatched join columns risked introducing duplicated records, inaccurate aggregations and inconsistencies in revenue calculations.
+* Challenge: * Establishing an accurate relational schema across multiple Olist datasets. Incorrect relationships and mismatched join columns risked introducing duplicated records, inaccurate aggregations and inconsistencies in revenue calculations.
 
 **Approach:** I examined the granularity of individual tables, identified appropriate primary and foreign keys, and configured relationships between the orders, customers, order items, payments, products and sellers datasets. I investigated potential duplication arising from one-to-many relationships and validated the resulting aggregations.
 
