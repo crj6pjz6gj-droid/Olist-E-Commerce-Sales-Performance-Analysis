@@ -279,8 +279,16 @@ Analysis performed:
 A customer cohort retention heatmap was developed by grouping customers according to their initial purchase month. Retention percentages were calculated relative to the original cohort size and analysed across subsequent purchasing periods.
 
 Analytical findings:
-Cohort month January 2017 with cohort index 12 is identified as having a relatively high customer retention of 0.70%, in comparison to one of the lowest of only 0.02% on December 2017, cohort index 7. Retention on month 0 for all months is 100%, which is expected.
- **     [Identify cohorts with relatively high or low retention. Describe how retention changes between Month 0 and subsequent               months, and whether particular cohorts demonstrate stronger repeat-purchase behaviour.]
+Cohort month January 2017 with cohort index 12 is identified as having a relatively high customer retention of 0.70%, in comparison to one of the lowest of only 0.02% on December 2017, cohort index 7. 
+
+The heatmap reveals a significant decline in customer retention after the initial purchase. Although all cohorts show 100% retention in Month 0, most experience retention rates below 1% in Month 1, indicating that relatively few customers make a purchase in the following month. 
+
+August and October 2017 cohorts demonstrate comparatively stronger Month 1 retention, at approximately 0.69% and 0.72% respectively. 
+
+This trend aligns with the bar chart visual which also highlights retention remains low suggesting that repeat purchasing is limited and sustained customer loyalty is relatively weak.
+
+<img width="515" height="317" alt="image" src="https://github.com/user-attachments/assets/b4024a0d-4404-47ad-9b55-4ede4877f24b" />
+
 
 5. Which geographical regions generate the greatest concentration of orders?
 
