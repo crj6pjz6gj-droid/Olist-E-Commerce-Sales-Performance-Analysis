@@ -183,11 +183,15 @@ Throughout the development of this project, I encountered several technical and 
 
 Challenge: Establishing an accurate relational schema across multiple Olist datasets. Incorrect relationships and mismatched join columns risked introducing duplicated records and inconsistencies in revenue calculations.
 
+<img width="1440" height="900" alt="Screenshot 2026-10-22 at 13 35 11" src="https://github.com/user-attachments/assets/9f664314-7fc9-40c1-b3ef-7103bfc96dd3" />
+
   I examined the individual tables to identify appropriate primary keys, and configured relationships between the orders, customers,   order items, payments, products and sellers datasets. I investigated potential duplication arising from one-to-many relationships    and validated the resulting aggregations.
 
 2. Data Quality and Missing Values
 
 Challenge: Identifying and managing blank values, missing dates and incomplete records without distorting data findings.
+
+<img width="993" height="655" alt="Screenshot 2026-11-03 at 11 10 12" src="https://github.com/user-attachments/assets/dafb89df-607c-441a-9999-687688cafd2b" />
 
   I investigated missing values within Power Query and the data model, distinguishing between records that could be excluded due to    missing at random and fields where missing information required further investigation as it appeared systematic.
 
