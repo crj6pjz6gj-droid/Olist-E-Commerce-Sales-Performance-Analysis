@@ -258,6 +258,10 @@ The period of 2018, Q3 is identified as the period with the highest revenue of a
 Analysis performed: 
 Revenue by Product Category was calculated and visualised using bar charts. Category Revenue Share was used to compare the relative contribution of individual product categories to overall revenue through the use of tooltips.
 
+
+<img width="512" height="263" alt="Screenshot 2026-11-13 at 13 53 14" src="https://github.com/user-attachments/assets/3373496d-22cc-423c-a8a5-b83cc724f10a" />
+
+
 Analytical findings:
 The product category with the largest contribution to revenue was health and beauty, with a revenue of approximately $48,000 which contributed to 8.94% of ovrall revenue. The lowest contributor accounting for only 0.01% and $34.99 was home comforts.
 
