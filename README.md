@@ -31,49 +31,30 @@ Dataset
 
 Source: Olist Brazilian E-Commerce Public Dataset
 
-View the dataset on Kaggle
+[View the dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 The dataset contains anonymised transactional information from a Brazilian e-commerce marketplace, covering orders placed between 2016 and 2018.
 
 The dataset includes multiple related tables containing information about:
 
   - Customers
-
   - Orders
-
   - Order items
-
   - Products
-
   - Sellers
-
   - Payments
-
   - Customer reviews (decided to not include)
-
   - Geographical locations
 
 This relational structure provides an opportunity to develop a data model capable of supporting analysis across sales, customers and products.
 
-Tools & Technologies
+Tools & Technologies:
 
-  Microsoft Power BI
-
-  Dashboard development, data modelling and visualisation
-
-  Power Query
-
-  Data cleaning, transformation and preparation
-
-  DAX
-
-  Measures, calculated columns and analytical calculations
-
-  Data Modelling
-
-  Relationships between transactional and dimension tables
-
-  Initial data inspection and supporting analysis
+  - Microsoft Power BI - Dashboard development, data modelling and visualisation
+  - Power Query - Data cleaning, transformation and preparation
+  - DAX - Measures, calculated columns and analytical calculations
+  - Data Modelling - Relationships between transactional and dimension tables
+  - GitHub - Project documentation, version control and portfolio presentation
 
 
 Project Methodology
@@ -84,67 +65,43 @@ I imported the Olist datasets into Power BI and used Power Query to prepare the 
 
 The preparation process included:
 
-Inspecting the structure and quality of the source tables.
-
-Identifying and handling missing values where appropriate.
-
-Reviewing duplicate records and unique identifiers.
-
-Checking data types and ensuring date fields were correctly formatted.
-
-Assessing the granularity of each table.
-
-Preparing date fields for time-based analysis.
-
-Ensuring that data transformations preserved the integrity of the underlying transactional data.
+  - Inspecting the structure and quality of the source tables.
+  - Identifying and handling missing values where appropriate.
+  - Reviewing duplicate records and unique identifiers.
+  - Checking data types and ensuring date fields were correctly formatted.
+  - Assessing the granularity of each table.
+  - Preparing date fields for time-based analysis.
+  - Ensuring that data transformations preserved the integrity of the underlying transactional data.
 
 2. Data Modelling
 
 I developed a relational data model connecting the relevant datasets to support analysis across multiple business dimensions.
 
 The modelling process involved:
-
-Establishing relationships between customers, orders, order items, products and other relevant tables.
-
-Reviewing relationship cardinality and filter propagation.
-
-Creating a dedicated date table to support time intelligence.
-
-Developing customer cohort attributes to analyse repeat purchasing behaviour.
-
-Considering the impact of table granularity on revenue calculations and aggregation.
+  - Establishing relationships between customers, orders, order items, products and other relevant tables.
+  - Reviewing relationship cardinality and filter propagation.
+  - Creating a dedicated date table to support time intelligence.
+  - Developing customer cohort attributes to analyse repeat purchasing behaviour.
+  - Considering the impact of table granularity on revenue calculations and aggregation.
 
 3. DAX & Analytical Measures
 
 I developed DAX measures to calculate key performance indicators and support interactive analysis.
 
 The measures include:
-
-Total Revenue
-
-Total Orders
-
-Total Customers
-
-Average Order Value
-
-Delivered Orders
-
-Delivery Rate
-
-Average Delivery Time
-
-Year-over-Year Revenue Growth
-
-Revenue Previous Year
-
-Revenue by Product Category
-
-Customer Retention Percentage
-
-Cohort Size
-
-Retained Customers
+  - Total Revenue
+  - Total Orders
+  - Total Customers
+  - Average Order Value
+  - Delivered Orders
+  - Delivery Rate
+  - Average Delivery Time
+  - Year-over-Year Revenue Growth
+  - Revenue Previous Year
+  - Revenue by Product Category
+  - Customer Retention Percentage
+  - Cohort Size
+  - Retained Customers
 
 These measures support the analysis of sales performance, customer purchasing behaviour and operational performance.
 
@@ -156,6 +113,7 @@ The report incorporates KPI cards, time-series analysis, product performance vis
 
 The visual design emphasises clear presentation, consistent formatting, appropriate visual hierarchy and usability.
 
+
 Dashboard Features
 
 Sales Performance Overview
@@ -163,18 +121,12 @@ Sales Performance Overview
 Provides a high-level summary of marketplace performance through key metrics and interactive visuals.
 
 Features include:
-
-Revenue and order KPIs.
-
-Customer and order value metrics.
-
-Quarterly and monthly revenue trends.
-
-Year-over-Year revenue comparison.
-
-Product category revenue analysis.
-
-Interactive filtering and cross-visual exploration.
+  - Revenue and order KPIs.
+  - Customer and order value metrics.
+  - Quarterly and monthly revenue trends.
+  - Year-over-Year revenue comparison.
+  - Product category revenue analysis.
+  - Interactive filtering and cross-visual exploration.
 
 Sales & Product Performance
 
@@ -199,34 +151,23 @@ This supports the identification of regions with greater order concentration.
 Interactive Reporting
 
 The report incorporates interactive features to support detailed exploration, including:
-
-Slicers and cross-filtering.
-
-Drill-down through date hierarchies.
-
-Drill-through to detailed cohort analysis.
-
-Dynamic KPI calculations.
-
-Context-sensitive filtering.
+  - Slicers and cross-filtering.
+  - Drill-down through date hierarchies.
+  - Drill-through to detailed cohort analysis.
+  - Dynamic KPI calculations.
+  - Context-sensitive filtering.
 
 Key Analytical Considerations
 
 Throughout the project, I considered the importance of data quality, analytical definitions and the reliability of calculated measures.
 
 Particular attention was given to:
-
-Defining revenue consistently.
-
-Avoiding duplicated revenue caused by relationships between tables with different levels of granularity.
-
-Distinguishing order counts from item counts.
-
-Using an appropriate date table for time intelligence.
-
-Ensuring cohort retention percentages were calculated relative to the original cohort size.
-
-Separating delivered-order analysis from broader order activity where appropriate.
+  - Defining revenue consistently.
+  - Avoiding duplicated revenue caused by relationships between tables with different levels of granularity.
+  - Distinguishing order counts from item counts.
+  - Using an appropriate date table for time intelligence.
+  - Ensuring cohort retention percentages were calculated relative to the original cohort size.
+  - Separating delivered-order analysis from broader order activity where appropriate.
 
 These considerations were important in ensuring that the dashboard presented meaningful and reliable business metrics.
 
@@ -235,18 +176,12 @@ Business Value
 The report provides a structured view of e-commerce performance and demonstrates how transactional data can be converted into business intelligence.
 
 The analysis can support:
-
-Monitoring sales performance over time.
-
-Identifying high-performing product categories.
-
-Understanding customer purchasing patterns.
-
-Investigating repeat-purchase behaviour.
-
-Exploring geographical order distribution.
-
-Supporting data-driven commercial decision-making.
+  - Monitoring sales performance over time.
+  - Identifying high-performing product categories.
+  - Understanding customer purchasing patterns.
+  - Investigating repeat-purchase behaviour.
+  - Exploring geographical order distribution.
+  - Supporting data-driven commercial decision-making.
 
 Repository Structure
 
@@ -280,18 +215,12 @@ The analysis is based on the available fields within the public dataset. Additio
 Future Development
 
 Potential extensions to the project include:
-
-Developing customer segmentation using purchasing behaviour.
-
-Investigating product profitability where cost data is available.
-
-Analysing customer review scores in relation to delivery performance.
-
-Expanding the analysis through Python or SQL.
-
-Developing additional measures for customer lifetime value.
-
-Improving report deployment and sharing through Power BI Service.
+  - Developing customer segmentation using purchasing behaviour.
+  - Investigating product profitability where cost data is available.
+  - Analysing customer review scores in relation to delivery performance.
+  - Expanding the analysis through Python or SQL.
+  - Developing additional measures for customer lifetime value.
+  - Improving report deployment and sharing through Power BI Service.
 
 Author
 
