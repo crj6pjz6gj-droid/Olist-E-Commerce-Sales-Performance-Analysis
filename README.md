@@ -319,7 +319,7 @@ Analytical findings:
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________________
-Author Katie Prestwich
+Katie Prestwich
 
 Economics BSc Graduate | Aspiring Data Analyst
 
