@@ -183,28 +183,6 @@ The analysis can support:
   - Exploring geographical order distribution.
   - Supporting data-driven commercial decision-making.
 
-Repository Structure
-
-olist-ecommerce-sales-performance-analysis/
-│
-├── README.md
-│
-├── PowerBI/
-│   └── Olist_Sales_Performance_Dashboard.pbix
-│
-├── Screenshots/
-│   ├── dashboard_overview.png
-│   ├── sales_performance.png
-│   ├── customer_retention_heatmap.png
-│   └── cohort_drillthrough.png
-│
-├── Documentation/
-│   ├── data_model.png
-│   ├── data_dictionary.md
-│   └── dax_measures.md
-│
-└── Data/
-    └── README.md
 
 Limitations
 
