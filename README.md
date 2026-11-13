@@ -1,12 +1,12 @@
-"Brazilian E-Commerce Sales Performance & Customer Analytics"
+**Brazilian E-Commerce Sales Performance & Customer Analytics**
 
-Project Overview
+**Project Overview**
 
 This project uses Power BI to analyse the sales performance and customer purchasing behaviour of a Brazilian e-commerce marketplace. Using the Olist Brazilian E-Commerce dataset, I developed an interactive report to explore revenue trends, product category performance, customer retention, orders fulfilled and their geographical sales distribution.
 
 The objective of this project was to transform a large, raw, transactional dataset into actionable business insights through data cleaning, data modelling, DAX calculations and interactive visualisation. This project demonstrates my ability to apply data analytics techniques to a real-world business dataset and communicate analytical findings through a structured dashboard.
 
-Business Objectives
+**Business Objectives**
 
 The analysis was designed to address the following business questions:
 
@@ -19,7 +19,7 @@ The analysis was designed to address the following business questions:
   - Which geographical regions generate the greatest concentration of orders?
 
 
-Dataset
+**Dataset**
 
 Source: Olist Brazilian E-Commerce Public Dataset
 
@@ -47,7 +47,7 @@ Tools & Technologies:
   - GitHub - Project documentation, version control and portfolio presentation
 
 
-Project Methodology
+**Project Methodology**
 
 1. Data Preparation & Cleaning
 
@@ -107,7 +107,7 @@ The report incorporates KPI cards, time-series analysis, product performance vis
 The visual design emphasises clear presentation, consistent formatting, appropriate visual hierarchy and usability. A consistent colour scheme of neutral shades and navy blue text provides the dashboard with a professional feel, inspired by the companies colour palette.
 
 
-Dashboard Features
+**Dashboard Features**
 
 Provides a high-level summary of marketplace performance through key metrics and interactive visuals.
 
@@ -120,20 +120,20 @@ Features include:
   - Interactive filtering and cross-visual exploration.
 
 
-Sales & Product Performance
+**Sales & Product Performance**
 
 Explores sales performance across time and product categories.
 The report enables users to investigate revenue trends, identify leading product categories and explore differences in performance across business dimensions.
 
-Customer Cohort Retention Analysis
+**Customer Cohort Retention Analysis**
 
 A cohort retention heatmap was developed to investigate repeat purchasing behaviour over time. Customers are grouped according to their initial purchase month, with subsequent purchasing activity analysed by cohort month. The heatmap enables the comparison of customer retention across cohorts, with conditional formatting enabling viewers to quickly and easily understand customer retention rates. The drill down feature is also used on the matrix visual to allow for more in depth customer retention analysis for specific cells. 
 
-Geographical Order Analysis
+**Geographical Order Analysis**
 
 A geographical visualisation was developed to explore the distribution of customer orders across Brazilian states which supports the identification of regions with greater order concentration via conditional formatting of colours. This can highlight where to target product advertisement for example to boost sales.
 
-Interactive Reporting
+**Interactive Reporting**
 
 The report incorporates interactive features to support detailed exploration, including:
   - Drill-down through date hierarchies.
@@ -141,7 +141,7 @@ The report incorporates interactive features to support detailed exploration, in
   - Dynamic KPI calculations and formatting.
   - Context-sensitive filtering.
 
-Key Analytical Considerations
+**Key Analytical Considerations**
 
 Particular attention was given to:
   - Defining revenue consistently.
@@ -164,7 +164,7 @@ The analysis can support:
   - Supporting data-driven commercial decision-making.
 
 
-Limitations
+**Limitations**
 
 The dataset represents a historical period of e-commerce activity between 2016 and 2018. Therefore, the findings should not be interpreted as a representation of current marketplace performance.
 
@@ -177,7 +177,7 @@ Hence, potential extensions to the project include:
   - Developing customer segmentation using purchasing behaviour.
 
 
-Challenges Encountered & Problem-Solving
+**Challenges Encountered & Problem-Solving**
 
 Throughout the development of this project, I encountered several technical and analytical challenges. Resolving these issues required iterative testing, investigation of the underlying data model, and refinement of DAX calculations.
 
@@ -230,7 +230,7 @@ Challenge: Revenue trend visualisations initially displayed blank date categorie
   I created a dedicated calendar/date table, developed date-based calculated columns and investigated the relationship between order   purchase timestamps and date-only fields. I also refined the quarter sorting logic to ensure chronological ordering.
 
 
-Business Questions & Analytical Findings
+**Business Questions & Analytical Findings**
 
 This analysis was guided by a series of business questions designed to evaluate marketplace sales performance, customer purchasing behaviour and product performance. Power BI measures and interactive visualisations were used to investigate each question and identify potential areas for business improvement.
 
