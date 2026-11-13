@@ -1,4 +1,4 @@
-*Brazilian E-Commerce Sales Performance & Customer Analytics*
+"Brazilian E-Commerce Sales Performance & Customer Analytics"
 
 Project Overview
 
