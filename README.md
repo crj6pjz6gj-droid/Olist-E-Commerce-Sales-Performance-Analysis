@@ -188,7 +188,7 @@ Throughout the development of this project, I encountered several technical and 
 Challenge: Establishing an accurate relational schema across multiple Olist datasets. Incorrect relationships and mismatched join columns risked introducing duplicated records and inconsistencies in revenue calculations.
 
 
-<img width="1440" height="900" alt="Screenshot 2026-10-22 at 13 35 11" src="https://github.com/user-attachments/assets/9f664314-7fc9-40c1-b3ef-7103bfc96dd3" />
+<img width="667" height="374" alt="Screenshot 2026-11-16 at 09 36 52" src="https://github.com/user-attachments/assets/381ccad8-1f91-4164-bd2c-18c59fd53c13" />
 
 
   I examined the individual tables to identify appropriate primary keys, and configured relationships between the orders, customers, order items, payments, products and sellers datasets. I investigated potential duplication arising from one-to-many relationships and validated the resulting aggregations by creating a calculated column and filtering to assess the unmatched records.
