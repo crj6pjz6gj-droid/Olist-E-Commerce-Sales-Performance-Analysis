@@ -287,7 +287,8 @@ August and October 2017 cohorts demonstrate comparatively stronger Month 1 reten
 
 This trend aligns with the bar chart visual which also highlights retention remains low suggesting that repeat purchasing is limited and sustained customer loyalty is relatively weak.
 
-<img width="515" height="317" alt="image" src="https://github.com/user-attachments/assets/b4024a0d-4404-47ad-9b55-4ede4877f24b" />
+<img width="1035" height="567" alt="Screenshot 2026-11-16 at 09 39 01" src="https://github.com/user-attachments/assets/083a4095-e614-4288-a813-21071125d318" />
+
 
 
 5. Which geographical regions generate the greatest concentration of orders?
