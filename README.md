@@ -310,8 +310,7 @@ The cohort retention heatmap further demonstrates differences in purchasing beha
 
 The dashboard also displays a revenue-per-order KPI of $5.18. However, average order value has not yet been segmented by customer cohort.
 
-<img width="721" height="407" alt="Screenshot 2026-11-13 at 13 49 47" src="https://github.com/user-attachments/assets/659bbbaa-74b8-4e54-a42d-38d43caf9015" />
-
+<img width="723" height="407" alt="Screenshot 2026-11-16 at 09 34 35" src="https://github.com/user-attachments/assets/3de83864-5b4a-4440-8138-4cada27b4ed2" />
 
 <img width="724" height="409" alt="Screenshot 2026-11-13 at 13 49 56" src="https://github.com/user-attachments/assets/0af7866c-7328-4532-8392-88c69116a8d4" />
 
