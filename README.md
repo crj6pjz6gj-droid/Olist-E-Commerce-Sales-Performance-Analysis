@@ -304,10 +304,11 @@ Analysis performed:
 Customer purchase frequency, order counts, average order value and revenue measures were used to investigate differences in purchasing behaviour. Interactive filtering and drill-through functionality enabled more detailed exploration of selected customer cohorts.
 
 Analytical findings:
+The customer order-frequency distribution is heavily concentrated among customers who placed a single order, with substantially fewer customers making multiple purchases. The dashboard reports approximately 3K repeat customers and a repeat purchase rate of 2.82%, indicating that repeat purchasing represents a relatively small proportion of the customer base.
 
-**      [Describe the distribution of customer order frequency, differences in purchasing behaviour between cohorts and any notable variations in average order value.]
+The cohort retention heatmap further demonstrates differences in purchasing behaviour over time. Although all cohorts record 100% retention in Month 0, retention declines considerably in subsequent months. As retention remains low across later months, this suggests that stronger initial repeat purchasing does not consistently translate into sustained customer loyalty.
 
-
+The dashboard also displays a revenue-per-order KPI of $5.18. However, average order value has not yet been segmented by customer cohort.
 
 <img width="721" height="407" alt="Screenshot 2026-11-13 at 13 49 47" src="https://github.com/user-attachments/assets/659bbbaa-74b8-4e54-a42d-38d43caf9015" />
 
