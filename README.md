@@ -218,11 +218,11 @@ Challenge: Developing DAX calculations for business performance metrics, includi
 
 Challenge: Initial cohort retention calculations produced unexpectedly low percentages, while conditional formatting resulted in limited visual variation due to the distribution of values.
 
+  I investigated the relationship between cohort size, retained customer counts and the retention percentage calculation. I also refined the conditional formatting configuration by adjusting the minimum, midpoint and maximum colour values to improve the visual distinction between retention levels.
+
 
 <img width="1035" height="567" alt="Screenshot 2026-11-16 at 09 39 01" src="https://github.com/user-attachments/assets/083a4095-e614-4288-a813-21071125d318" />
 
-
-  I investigated the relationship between cohort size, retained customer counts and the retention percentage calculation. I also refined the conditional formatting configuration by adjusting the minimum, midpoint and maximum colour values to improve the visual distinction between retention levels.
 
 5. Visualisation Configuration and Geographic Analysis
 
